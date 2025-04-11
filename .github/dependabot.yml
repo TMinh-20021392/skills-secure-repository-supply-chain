@@ -4,7 +4,10 @@ updates:
     directory: "/"
     schedule:
       interval: "monthly"
+    automerge: true  # Enable automerge for GitHub Actions
+
   - package-ecosystem: "nuget"
     directory: "/code/"
     schedule:
       interval: "weekly"
+    automerge: true  # Enable automerge for NuGet packages
